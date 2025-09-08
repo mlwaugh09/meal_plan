@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZW7IVfcbGwg=",
+  "success": true,
+  "projectFilePath": "/Users/markwaugh/Library/CloudStorage/OneDrive-Personal/repos/meal_plan/MealPlanStore/MealPlanStore.csproj",
+  "expectedPackageFiles": [
+    "/Users/markwaugh/.nuget/packages/microsoft.aspnetcore.openapi/9.0.8/microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "/Users/markwaugh/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
