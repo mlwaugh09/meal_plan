@@ -6,16 +6,27 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Recipe from "./components/Recipe";
 import Cookbook from "./components/Cookbook";
+import FilterableIngredientsTable from "./components/Ingredient";
 
 function App() {
   const [count, setCount] = useState(0);
 
+  const PRODUCTS = [
+  { category: "Fruits", price: "$1", stocked: true, name: "Apple" },
+  { category: "Fruits", price: "$1", stocked: true, name: "Dragonfruit" },
+  { category: "Fruits", price: "$2", stocked: false, name: "Passionfruit" },
+  { category: "Vegetables", price: "$2", stocked: true, name: "Spinach" },
+  { category: "Vegetables", price: "$4", stocked: false, name: "Pumpkin" },
+  { category: "Vegetables", price: "$1", stocked: true, name: "Peas" },
+];
+
+
   return (
-    <>
-    <Header />
-    <Cookbook />
-    <Recipe />
-    //#region 
+    <div id="app">
+      <Header />
+      {/* <Cookbook /> */}
+      <FilterableIngredientsTable products={PRODUCTS} />
+      <Recipe />
       {/* <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
@@ -36,9 +47,8 @@ function App() {
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p> */}
-      //#endregion
       <Footer />
-    </>
+    </div>
   );
 }
 

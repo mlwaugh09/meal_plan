@@ -4,8 +4,8 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #2ecc71;
+  color: rgba(28, 28, 28, 0.87);
+  
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -28,6 +28,17 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  background-color: #78e08f;
+}
+
+#app {
+  border: 5px solid #78e08f; /* green border */
+  border-radius: 12px;        /* optional */
+  padding: 2rem;              /* space inside */
+  background-color: #faf9f9;  /* content background */
+  width: 80%;                 /* adjust as needed */
+  max-width: 800px;
+  margin: auto;
 }
 
 h1 {
