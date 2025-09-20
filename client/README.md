@@ -10,3 +10,10 @@ Currently, two official plugins are available:
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+Example Combo (balanced palette):
+Primary: #27ae60 (buttons, highlights)
+Secondary: #6ab04c (headings)
+Background accent: #f0fff4 (very light green tint)
+Text: #213547 (dark gray/blue for readability)

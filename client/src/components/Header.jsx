@@ -1,12 +1,15 @@
-import React from "react";
 import HighlightIcon from "@mui/icons-material/Highlight";
+import { AppBar, Toolbar, Typography } from "@mui/material";
 
-function Header() {
+export default function Header() {
   return (
-    <header>
-      <h1><HighlightIcon />Meal Prep Assistant</h1>
-    </header>
+    <AppBar position="static" color="success">
+      <Toolbar>
+        <HighlightIcon sx={{ marginRight: 1 }} />
+        <Typography variant="h6" component="div">
+          Meal Prep Assistant
+        </Typography>
+      </Toolbar>
+    </AppBar>
   );
 }
-
-export default Header;
